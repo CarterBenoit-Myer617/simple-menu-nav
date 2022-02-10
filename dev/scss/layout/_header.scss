@@ -1,0 +1,205 @@
+/* =============
+    Header
+============= */
+header {
+    display: grid;
+    padding-top: 2%;
+
+
+    grid-template-areas: ". header .";
+
+    grid-template-columns: auto 60% auto;
+    // background-color: transparent;
+    position: fixed;
+    width: 100%;
+    // width: 1145px;
+    // height: 126px;
+    // left: 291px;
+    // top: 45px;
+
+
+
+    >div {
+
+        grid-area: header;
+        // width: 100%;
+        // border: 1px solid red;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "logo burger";
+
+
+        // flex-direction: row-reverse;
+        // justify-content: center;
+        // align-items: center;
+
+        // @include lg {
+
+        //     grid-template-areas: "burger-container""nav-container""logo-container";
+
+
+        // }
+
+        #burger-container {
+            display: flex;
+            grid-area: burger;
+            justify-content: flex-end;
+                align-items: center;
+
+            
+
+
+            #logo-container {
+                grid-area: logo;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                
+
+
+
+            }
+
+        }
+    }
+
+}
+
+//         #nav-container {
+//             border: 1px solid red;
+//             display: flex;
+//             flex-direction: row;
+//             align-items: stretch;;
+
+
+
+
+
+
+//             ul {
+//                 border: 1px solid blue;
+//                 display: flex;
+//                 flex-direction:column
+
+
+
+//                 li {
+//                     border: 1px solid yellow;
+//                     #Events {
+//                         .nav-btns {
+//                             width: 126px;
+//                             height: 30px;
+
+//                             /* Events */
+
+//                             position: absolute;
+//                             width: 272px;
+//                             height: 50px;
+//                             left: calc(50% - 272px/2 - 291.5px);
+//                             top: calc(50% - 50px/2);
+
+//                             font-family: Antonio;
+//                             font-style: normal;
+//                             font-weight: normal;
+//                             font-size: 24px;
+//                             line-height: 80px;
+//                             /* or 333% */
+//                             display: flex;
+//                             align-items: center;
+//                             text-align: center;
+
+//                             color: #000000;
+
+
+
+//                             /* Music */
+
+//                             position: absolute;
+//                             width: 270px;
+//                             height: 50px;
+//                             left: calc(50% - 270px/2 + 0.5px);
+//                             top: calc(50% - 50px/2);
+
+//                             font-family: Antonio;
+//                             font-style: normal;
+//                             font-weight: normal;
+//                             font-size: 24px;
+//                             line-height: 80px;
+//                             /* or 333% */
+//                             display: flex;
+//                             align-items: center;
+//                             text-align: center;
+
+//                             color: #000000;
+
+
+
+//                             Magazine {
+
+//                                 position: absolute;
+//                                 width: 271px;
+//                                 height: 50px;
+//                                 left: calc(50% - 271px/2 + 292px);
+//                                 top: calc(50% - 50px/2);
+
+//                                 font-family: Antonio;
+//                                 font-style: normal;
+//                                 font-weight: normal;
+//                                 font-size: 24px;
+
+
+//                                 display: flex;
+//                                 align-items: center;
+//                                 text-align: center;
+
+//                                 color: #000000;
+//                             }
+
+
+
+
+//                         }
+
+//                     }
+
+
+
+
+//                 }
+
+
+//                 li {
+
+//                     #Music {
+//                         width: 125px;
+//                         height: 30px;
+//                         left: calc(50% - 125px/2);
+//                         top: calc(50% - 30px/2);
+//                     }
+
+
+
+//                 }
+
+//                 li {
+
+//                     #Magazine {
+//                         width: 125px;
+//                         height: 30px;
+//                         left: calc(50% - 125px/2);
+//                         top: calc(50% - 30px/2);
+//                     }
+//                 }
+//             }
+
+
+
+//         }
+
+//     }
+
+
+
+
+// 

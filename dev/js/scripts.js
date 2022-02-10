@@ -1,31 +1,20 @@
-import {
-    burgerTL
-} from "./burgerAnimation";
+import {burgerTL} from "./burgerAnimation.js";
 // import {menuAnimation} from "./mobileMenu.js"
 
 // import { displayWindowSize } from "./mobileResizing"
 
-var burgerButton = document.querySelector("#burger");
 
 
 burgerButton.addEventListener("click", () => {
+    console.log("burger clicked");
 
+var burgerButton = document.querySelector("#burger");
 
     burgerTL.play();
 
 
 
-    if (canISeeMenu === false) {
-        
-        burgerTL.play();
-        // menuAnimation.play();
-        canISeeMenu = true;
-    } else {
-        
-        burgerTL.reverse();
-        // menuAnimation.reverse();
-        canISeeMenu = true;
-    }
+
 
 
 });
@@ -34,28 +23,28 @@ burgerButton.addEventListener("click", () => {
 
 
 
-burgerButton.addEventListener("click", openCloseMenu);
-let navButtons = document.querySelectorAll(".nav-btns");
+burgerButton.addEventListener("click", (openCloseMenu) => {
+            
+    burgerbu.play();
 
-for (const button of navButtons){
-    button.addEventListener("click", checkScrolling);
-    button.addEventListener("click", openCloseMenu);
-}
+            // let navButtons = document.querySelectorAll(".nav-btns");
 
-function checkScrolling(e) {
-    // check to see which button was clicked
-    const indexValue = [].indexOf.call(navButtons, e.target)
-    if (indexValue != -1) {
-        scrollPage(indexValue);
-    }
-}
+            // for (const button of navButtons) {
+            //     // button.addEventListener("click", checkScrolling);
+            //     // button.addEventListener("click", openCloseMenu);
 
-window.addEventListener('load', function(){
+            // }
 
 
+            window.addEventListener('load', function () {
 
-// //listen to window resize
-window.addEventListener("resize", displayWindowSize);
+                // //listen to window resize
+                window.addEventListener("resize", displayWindowSize);
 
-// //check the window size on load
-window.addEventListener('load', displayWindowSize); 
+                //check the window size on load
+                window.addEventListener('load');
+
+            });
+
+
+});

@@ -10,7 +10,7 @@ burgerButton.addEventListener("click", () => {
 
 var burgerButton = document.querySelector("#burger");
 
-    burgerTL.play();
+    burgerTL.play();e
 
 
 

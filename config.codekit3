@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/.vscode\/settings.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.vscode\/settings-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/assets\/gsap-shockingly-green\/docs-link.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1469,11 +1477,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/header\/burger.svg" : {
+    "\/deploy\/img\/header\/Group 12.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/header\/burger.svg",
+      "oAP" : "\/deploy\/img\/header\/Group 12.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

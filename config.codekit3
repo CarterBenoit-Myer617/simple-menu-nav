@@ -1497,19 +1497,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero-section.png" : {
-      "ft" : 32768,
-      "iS" : 695342,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero-section.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/hero\/hero-cover-1.jpg" : {
       "ft" : 16384,
       "iS" : 463385,
@@ -1523,54 +1510,54 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/news\/cover-1.png" : {
-      "ft" : 32768,
-      "iS" : 102031,
+    "\/deploy\/img\/news\/cover-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 68695,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/news\/cover-1.png",
+      "oAP" : "\/deploy\/img\/news\/cover-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/news\/cover-2.png" : {
-      "ft" : 32768,
-      "iS" : 125209,
+    "\/deploy\/img\/news\/cover-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 112970,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/news\/cover-2.png",
+      "oAP" : "\/deploy\/img\/news\/cover-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/news\/cover-3.png" : {
-      "ft" : 32768,
-      "iS" : 3579,
+    "\/deploy\/img\/news\/cover-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 19004,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/news\/cover-3.png",
+      "oAP" : "\/deploy\/img\/news\/cover-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/news\/cover.png" : {
-      "ft" : 32768,
-      "iS" : 376835,
+    "\/deploy\/img\/news\/cover.jpg" : {
+      "ft" : 16384,
+      "iS" : 270587,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/news\/cover.png",
+      "oAP" : "\/deploy\/img\/news\/cover.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1593,6 +1580,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/design\/www.figma.com:.webloc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/www.figma.com:.webloc",
+      "oF" : 0
     },
     "\/dev\/content\/events.kit" : {
       "cB" : 0,

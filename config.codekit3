@@ -1487,16 +1487,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/header\/Group 11.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/header\/Group 11.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/deploy\/img\/header\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1520,15 +1510,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero-cover-1.png" : {
-      "ft" : 32768,
-      "iS" : 698426,
+    "\/deploy\/img\/hero\/hero-cover-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 463385,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero-cover-1.png",
+      "oAP" : "\/deploy\/img\/hero\/hero-cover-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1675,17 +1665,6 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/dev\/js\/burgerAnimation copy-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/burgerAnimation-min-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/burgerAnimation-min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1917,6 +1896,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/sections\/dist\/_hero.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/dist\/_hero-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,

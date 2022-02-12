@@ -464,7 +464,7 @@ header {
   display: grid;
   padding-top: 2%;
   grid-template-areas: ". header .";
-  grid-template-columns: auto 60% auto;
+  grid-template-columns: auto 80% auto;
   position: fixed;
   width: 100%;
 }
@@ -493,10 +493,10 @@ header > div #burger-container #logo-container {
 /* =============
     hero
 ============= */
-#hero-section {
+#hero-section .container img {
   width: 100vw;
   height: 100vh;
-  background: url(../img/hero-section.png);
+  background: url(../img/hero-cover-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }

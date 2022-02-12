@@ -1,0 +1,10 @@
+/* =============
+    hero
+============= */
+#hero-section .container img {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/hero-cover-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

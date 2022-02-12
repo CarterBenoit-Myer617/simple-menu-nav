@@ -4,11 +4,8 @@
 header {
     display: grid;
     padding-top: 2%;
-
-
     grid-template-areas: ". header .";
-
-    grid-template-columns: auto 60% auto;
+    grid-template-columns: auto 80% auto;
     // background-color: transparent;
     position: fixed;
     width: 100%;
@@ -44,9 +41,9 @@ header {
             display: flex;
             grid-area: burger;
             justify-content: flex-end;
-                align-items: center;
+            align-items: center;
 
-            
+
 
 
             #logo-container {
@@ -55,7 +52,7 @@ header {
                 justify-content: flex-end;
                 align-items: center;
 
-                
+
 
 
 

@@ -356,6 +356,7 @@ body ul {
   margin: 0;
   padding: 0;
 }
+
 body ul li {
   list-style: none;
 }
@@ -367,7 +368,12 @@ body {
   font-family: "Antonio";
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Antonio";
   margin: 0;
   padding: 0;
 }
@@ -375,6 +381,14 @@ h1, h2, h3, h4, h5 {
 p {
   padding: 0;
   margin: 0;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+h2 {
+  font-size: 48px;
 }
 
 /* =============
@@ -426,7 +440,7 @@ nav {
 }
 nav ul li {
   margin-bottom: 20px;
-  text-align: right;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   nav ul li {
@@ -439,7 +453,7 @@ nav ul li {
 nav ul li button {
   background-color: transparent;
   color: #fff;
-  font-family: "Comfortaa", cursive;
+  font-family: "Antonio";
   font-size: 1.875rem;
   text-decoration: none;
   transition: 0.25s;
@@ -458,7 +472,7 @@ nav ul li button:hover {
 nav ul li a:link,
 nav ul li a:visited {
   color: #fff;
-  font-family: "Comfortaa", cursive;
+  font-family: "Antonio";
   font-size: 1.875rem;
   padding: 0 20px;
   text-decoration: none;
@@ -488,9 +502,32 @@ nav ul li:last-child {
 /* =============
     hero
 ============= */
+#hero-section .hero-container img {
+  width: 100vw;
+  height: 100vh;
+  background: url(img/hero/hero-cover-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hero-section .hero-container h1 {
+  position: absolute;
+  left: 286px;
+  top: 816px;
+  background-color: red;
+  background-size: cover;
+}
+
 /* =============
     news
 ============= */
+#news-section .news-grid #popular-news-section .RT-col .tittle-container h2 {
+  background-color: pink;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
 /* =============
     events
 ============= */

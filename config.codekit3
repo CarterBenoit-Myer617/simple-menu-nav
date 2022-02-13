@@ -1593,41 +1593,41 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/events.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles.scss",
+      "oF" : 3
     },
     "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles.scss",
+      "oF" : 3
     },
     "\/dev\/content\/news.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/news.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles.scss",
+      "oF" : 3
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/head.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/dev\/index.kit",
+      "oF" : 3
     },
     "\/dev\/global\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles.scss",
+      "oF" : 3
     },
     "\/dev\/global\/nav.kit" : {
       "cB" : 0,
@@ -1641,9 +1641,9 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/scripts.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 3
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
@@ -1680,7 +1680,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/js\/burgerAnimation.js",
       "oF" : 2,
       "sC" : 3,
@@ -1705,9 +1705,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_base.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -1720,9 +1720,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_normalize.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -1735,12 +1735,24 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_typography.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/base\/dist\/_typography.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/base\/dist\/_typography-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
@@ -1891,18 +1903,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/scss\/sections\/dist\/_hero.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/dist\/_hero-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,

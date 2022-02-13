@@ -520,18 +520,7 @@ nav ul li:last-child {
 /* =============
     news
 ============= */
-#news-section {
-  background-color: blue;
-}
-#news-section .news-grid #popular-news-section {
-  background-color: pink;
-}
-#news-section .news-grid #popular-news-section .RT-col .tittle-container h2 {
-  color: pink;
-}
-#news-section .news-grid #latest-news-section {
-  background-color: red;
-}
+
 
 /* =============
     events

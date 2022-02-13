@@ -520,12 +520,17 @@ nav ul li:last-child {
 /* =============
     news
 ============= */
-#news-section .news-grid #popular-news-section .RT-col .tittle-container h2 {
+#news-section {
+  background-color: blue;
+}
+#news-section .news-grid #popular-news-section {
   background-color: pink;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 25px;
-  margin-bottom: 50px;
+}
+#news-section .news-grid #popular-news-section .RT-col .tittle-container h2 {
+  color: pink;
+}
+#news-section .news-grid #latest-news-section {
+  background-color: red;
 }
 
 /* =============
